@@ -15,7 +15,7 @@
 
 @media only screen and (min-width: 801px) {
     .chatbox {
-        width: 30%;
+        width: 25%;
     }
 }
 @media only screen and (min-width: 601px) and (max-width:800px) {
@@ -40,7 +40,7 @@
 
 .blz_b,
 .blz_b:hover,
-.button-3:hover {
+.blz_b_in:hover {
     background-color: #000
 }
 
@@ -58,7 +58,7 @@
     height: 100%;
 }
 
-.button-3,
+.blz_b_in,
 .blz_b {
     display: inline-flex;
     line-height: 1;
@@ -70,7 +70,7 @@
 }
 
 *,
-.button-3,
+.blz_b_in,
 .blz_b {
     box-sizing: border-box;
     margin: 0
@@ -93,17 +93,17 @@
     -webkit-user-select: none
 }
 
-.button-3,
+.blz_b_in,
 .send__button {
     background: 0 0;
     outline: 0;
     cursor: pointer
 }
 
-.button-3 {
+.blz_b_in {
     align-items: center;
     border-radius: 15px;
-    background: -webkit-linear-gradient(left, #f58698, #ffc3a0);
+    background: -webkit-linear-gradient(left, #000, #9357FF);
     box-shadow: 0 0 0 rgba(0, 0, 0, .1);
     width: 100%;
     color: #000;
@@ -115,7 +115,7 @@
     -webkit-user-select: none
 }
 
-.button-3:hover {
+.blz_b_in:hover {
     box-shadow: transparent 0 0 0 3px, rgba(36, 36, 36, .4) 0 3px 5px;
     font-weight: 700
 }
@@ -128,8 +128,8 @@
 * {
     padding: 0;
     --secondaryGradient: linear-gradient(268.91deg,
-            #f58698 -2.14%,
-            #ffc3a0 99.69%);
+            #000 -2.14%,
+            #9357FF 99.69%);
     --primaryBoxShadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
     --secondaryBoxShadow: 0px -10px 15px rgba(0, 0, 0, 0.1)
 }
@@ -227,12 +227,12 @@
 
 .chatbox__heading--header {
     font-size: 1.2rem;
-    color: #000
+    color: #fff
 }
 
 .chatbox__description--header {
     font-size: .9rem;
-    color: #000
+    color: #fff
 }
 
 .chatbox__messages {
@@ -260,8 +260,8 @@
 .messages__item--operator {
     margin-left: auto;
     border-bottom-left-radius: 20px;
-    background: -webkit-linear-gradient(left, #f58698, #ffc3a0);
-    color: #000
+    background: -webkit-linear-gradient(left, #000, #9357FF);
+    color: #fff
 }
 
 .chatbox__footer {
@@ -433,7 +433,7 @@
 .blz_s {
     width: 10px;
     height: 10px;
-    background-color: #f58698;
+    background-color: #000;
     opacity: 0.8;
     display: inline-block;
     margin: 1px;
