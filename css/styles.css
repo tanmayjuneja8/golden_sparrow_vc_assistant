@@ -3,12 +3,12 @@
     font-family: "Avenir Next", Arial, sans-serif;
 }
 
-.blz_b,
-.blz_b:hover {
+.button-35,
+.button-35:hover {
     color: #fff
 }
 
-.blz_b:hover,
+.button-35:hover,
 .chatbox_button button:hover {
     box-shadow: #90b89b 0 0 0 3px, transparent 0 0 0 0
 }
@@ -38,9 +38,9 @@
     background-color: #fff
 }
 
-.blz_b,
-.blz_b:hover,
-.blz_b_in:hover {
+.button-35,
+.button-35:hover,
+.button-3:hover {
     background-color: #000
 }
 
@@ -58,8 +58,8 @@
     height: 100%;
 }
 
-.blz_b_in,
-.blz_b {
+.button-3,
+.button-35 {
     display: inline-flex;
     line-height: 1;
     padding: 15px;
@@ -70,13 +70,13 @@
 }
 
 *,
-.blz_b_in,
-.blz_b {
+.button-3,
+.button-35 {
     box-sizing: border-box;
     margin: 0
 }
 
-.blz_b {
+.button-35 {
     align-items: center;
     border-radius: 15px;
     box-shadow: transparent 0 0 0 6px, rgba(18, 18, 18, .4) 0 6px 20px;
@@ -93,14 +93,14 @@
     -webkit-user-select: none
 }
 
-.blz_b_in,
+.button-3,
 .send__button {
     background: 0 0;
     outline: 0;
     cursor: pointer
 }
 
-.blz_b_in {
+.button-3 {
     align-items: center;
     border-radius: 15px;
     background: -webkit-linear-gradient(left, #f58698, #ffc3a0);
@@ -115,7 +115,7 @@
     -webkit-user-select: none
 }
 
-.blz_b_in:hover {
+.button-3:hover {
     box-shadow: transparent 0 0 0 3px, rgba(36, 36, 36, .4) 0 3px 5px;
     font-weight: 700
 }
