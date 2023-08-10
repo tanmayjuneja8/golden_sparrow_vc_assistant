@@ -103,7 +103,7 @@
 .blz_b_in {
     align-items: center;
     border-radius: 15px;
-    background: -webkit-linear-gradient(left, #000, #9357FF);
+    background: -webkit-linear-gradient(left, #f58698, #ffc3a0);
     box-shadow: 0 0 0 rgba(0, 0, 0, .1);
     width: 100%;
     color: #000;
@@ -128,8 +128,8 @@
 * {
     padding: 0;
     --secondaryGradient: linear-gradient(268.91deg,
-            #000 -2.14%,
-            #9357FF 99.69%);
+            #f58698 -2.14%,
+            #ffc3a0 99.69%);
     --primaryBoxShadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
     --secondaryBoxShadow: 0px -10px 15px rgba(0, 0, 0, 0.1)
 }
@@ -260,7 +260,7 @@
 .messages__item--operator {
     margin-left: auto;
     border-bottom-left-radius: 20px;
-    background: -webkit-linear-gradient(left, #000, #9357FF);
+    background: -webkit-linear-gradient(left, #f58698, #ffc3a0);
     color: #fff
 }
 
